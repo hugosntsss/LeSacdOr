@@ -46,7 +46,16 @@ for pair in PAIRS.split():
     k, v = pair.split(":")
     ACC[k] = v
 
+def brand(s):
+    for a in ("GO/VRD", "GO/CM", "GO/Bardage"): s = s.replace(a, "EIFFAGE")
+    s = re.sub(r"\bGO\b", "EIFFAGE", s); s = re.sub(r"\bVRD\b", "EIFFAGE", s)
+    s = s.replace("EIFFAGE/EIFFAGE", "EIFFAGE").replace("EIFFAGE / EIFFAGE", "EIFFAGE")
+    return s
+
 def accent(s):
+    return brand(_accent(s))
+
+def _accent(s):
     s = s.replace("OEUVRE","ŒUVRE").replace("/elec/","/électricité/").replace("<->", "↔").replace("->", "→").replace(" deg", "°")
     s = re.sub(r"\bm2\b", "m²", s); s = re.sub(r"\bm3\b", "m³", s)
     s = re.sub(r"\bO ?(12,48|14|90)\b", lambda m: "Ø" + ("90" if m.group(1) == "90" else " " + m.group(1)), s)
@@ -88,7 +97,7 @@ def working_days(start, n):
         d += dt.timedelta(1)
     return out
 
-LOTCOL = {"VRD": "GO", "SPK/MOA": "SPK", "GO/SPK": "GO + SPK"}
+LOTCOL = {"VRD": "EIFFAGE", "GO": "EIFFAGE", "SPK/MOA": "SPK", "GO/SPK": "EIFFAGE + SPK"}
 # ---------------------------------------------------------------- modele
 class Tk: pass
 tasks = []; byk = {}; sums = []
@@ -208,8 +217,8 @@ w('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>')
 w('<Project xmlns="http://schemas.microsoft.com/project">')
 w("<SaveVersion>14</SaveVersion>")
 w("<Name>Planning EXE Phase 1 (15 semaines) - Decathlon Campus - Sprinklage + Gros Œuvre</Name>")
-w("<Title>26_083 DECATHLON CAMPUS - Planning EXE Phase 1 - GO/VRD/CM/Bardage + SPRINKLAGE</Title>")
-w("<Subject>Planning détaillé Phase 1 (2026) - Lot Gros Œuvre / VRD / CM / Bardage et Lot Sprinklage</Subject>")
+w("<Title>26_083 DECATHLON CAMPUS - Planning EXE Phase 1 - EIFFAGE + SPRINKLAGE</Title>")
+w("<Subject>Planning détaillé Phase 1 (2026) - Lot EIFFAGE (gros œuvre, VRD, CM, bardage) et Lot Sprinklage</Subject>")
 w("<Company>Decathlon Campus - Villeneuve d'Ascq</Company>")
 w("<CreationDate>%s</CreationDate>" % dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))
 w("<LastSaved>%s</LastSaved>" % dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))

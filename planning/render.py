@@ -13,10 +13,10 @@ with contextlib.redirect_stdout(io.StringIO()):
 order, CAL, START, byk, END = ns["order"], ns["CAL"], ns["START"], ns["byk"], ns["END"]
 HOL = ns["HOL"]
 
-COL = {"SPK": "#2F6DB5", "GO": "#E8832A", "VRD": "#F0A858", "MOA": "#8A8F98", "GO/SPK": "#8E5CB5", "SPK/MOA": "#25A3A0"}
+COL = {"SPK": "#2F6DB5", "GO": "#E8832A", "VRD": "#E8832A", "MOA": "#8A8F98", "GO/SPK": "#8E5CB5", "SPK/MOA": "#25A3A0"}
 LOTCOL = ns["LOTCOL"]
-LAB = {"SPK": "Lot Sprinklage (SPK)", "GO": "Lot GO (gros œuvre / CM / bardage)", "VRD": "Lot GO - volet VRD / espaces verts", "MOA": "MOA / MOE",
-       "GO/SPK": "Commun GO + SPK", "SPK/MOA": "SPK + MOA (mesures compensatoires)"}
+LAB = {"SPK": "Lot Sprinklage (SPK)", "GO": "Lot EIFFAGE (gros œuvre / VRD / CM / bardage)", "VRD": "Lot GO - volet VRD / espaces verts", "MOA": "MOA / MOE",
+       "GO/SPK": "Commun EIFFAGE + SPK", "SPK/MOA": "SPK + MOA (mesures compensatoires)"}
 SEC = {1: "#1F2A44", 2: "#56607A"}
 off = lambda i: (CAL[i] - START).days
 ROWS_PER_PAGE = 44
@@ -50,7 +50,7 @@ def draw(ax, page, hdr_top):
     for r, o in enumerate(page):
         if o.kind == "T":
             lt = LOTCOL.get(o.lot, o.lot)
-            ax.add_patch(Rectangle((-15.5, r - 0.3), 14.6, 0.6, color=COL.get(o.lot if o.lot not in ("VRD", "SPK/MOA") else LOTCOL[o.lot], "#999"), zorder=6, lw=0))
+            ax.add_patch(Rectangle((-15.5, r - 0.3), 14.6, 0.6, color=COL.get({"VRD": "GO", "SPK/MOA": "SPK"}.get(o.lot, o.lot), "#999"), zorder=6, lw=0))
             ax.text(-8.2, r, lt, ha="center", va="center", fontsize=6.4, fontweight="bold", color="white", zorder=7)
         if r % 2 == 0: ax.add_patch(Rectangle((-17, r - 0.5), XMAX + 17, 1, color="#F6F7FA", lw=0, zorder=0))
         if o.kind == "S":
@@ -84,7 +84,7 @@ def figpage(page, pno, total):
     fig.text(0.985, 0.975, "Page %d/%d" % (pno, total), fontsize=8, ha="right", va="top", color="#56607A")
     # legende
     x = 0.015
-    for k in ["SPK", "GO", "VRD", "MOA", "GO/SPK", "SPK/MOA"]:
+    for k in ["SPK", "GO", "MOA", "GO/SPK", "SPK/MOA"]:
         fig.patches.append(Rectangle((x, 0.935), 0.011, 0.012, transform=fig.transFigure, color=COL[k]))
         fig.text(x + 0.014, 0.9405, LAB[k], fontsize=7.6, va="center"); x += 0.0155 + 0.0062 * len(LAB[k])
     fig.patches.append(Rectangle((x, 0.935), 0.011, 0.012, transform=fig.transFigure, facecolor="white", edgecolor="#C0392B", lw=1.3))
