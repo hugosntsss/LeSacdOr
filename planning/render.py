@@ -13,8 +13,9 @@ with contextlib.redirect_stdout(io.StringIO()):
 order, CAL, START, byk, END = ns["order"], ns["CAL"], ns["START"], ns["byk"], ns["END"]
 HOL = ns["HOL"]
 
-COL = {"SPK": "#2F6DB5", "GO": "#E8832A", "VRD": "#3FA34D", "MOA": "#8A8F98", "GO/SPK": "#8E5CB5", "SPK/MOA": "#25A3A0"}
-LAB = {"SPK": "Lot Sprinklage (SPK)", "GO": "Lot Gros œuvre / CM / Bardage (GO)", "VRD": "VRD / Espaces verts", "MOA": "MOA / MOE",
+COL = {"SPK": "#2F6DB5", "GO": "#E8832A", "VRD": "#F0A858", "MOA": "#8A8F98", "GO/SPK": "#8E5CB5", "SPK/MOA": "#25A3A0"}
+LOTCOL = ns["LOTCOL"]
+LAB = {"SPK": "Lot Sprinklage (SPK)", "GO": "Lot GO (gros œuvre / CM / bardage)", "VRD": "Lot GO - volet VRD / espaces verts", "MOA": "MOA / MOE",
        "GO/SPK": "Commun GO + SPK", "SPK/MOA": "SPK + MOA (mesures compensatoires)"}
 SEC = {1: "#1F2A44", 2: "#56607A"}
 off = lambda i: (CAL[i] - START).days
@@ -30,7 +31,7 @@ pages = [rows[i:i + ROWS_PER_PAGE] for i in range(0, len(rows), ROWS_PER_PAGE)]
 
 def draw(ax, page, hdr_top):
     n = len(page)
-    ax.set_xlim(-3, XMAX); ax.set_ylim(n + 0.2, -1.9)
+    ax.set_xlim(-17, XMAX); ax.set_ylim(n + 0.2, -1.9)
     # semaines + jours feries
     d = START
     wk = 0
@@ -44,8 +45,14 @@ def draw(ax, page, hdr_top):
         x = (h - START).days
         if 0 <= x <= span_days and h.weekday() < 5:
             ax.add_patch(Rectangle((x, -0.2), 1, n + 0.4, color="#F2D7D5", lw=0, zorder=0, alpha=0.7))
+    ax.text(-8.5, -1.0, "Lot", ha="center", va="center", fontsize=8, fontweight="bold", color="#1F2A44")
+    ax.axvline(-0.2, color="#9AA3B5", lw=0.8)
     for r, o in enumerate(page):
-        if r % 2 == 0: ax.add_patch(Rectangle((-3, r - 0.5), XMAX + 3, 1, color="#F6F7FA", lw=0, zorder=0))
+        if o.kind == "T":
+            lt = LOTCOL.get(o.lot, o.lot)
+            ax.add_patch(Rectangle((-15.5, r - 0.3), 14.6, 0.6, color=COL.get(o.lot if o.lot not in ("VRD", "SPK/MOA") else LOTCOL[o.lot], "#999"), zorder=6, lw=0))
+            ax.text(-8.2, r, lt, ha="center", va="center", fontsize=6.4, fontweight="bold", color="white", zorder=7)
+        if r % 2 == 0: ax.add_patch(Rectangle((-17, r - 0.5), XMAX + 17, 1, color="#F6F7FA", lw=0, zorder=0))
         if o.kind == "S":
             a, b = off(o.sd), off(o.fd) + 1
             ax.add_patch(Rectangle((a, r - 0.34), b - a, 0.68, color=SEC[min(o.level, 2)], zorder=2))

@@ -88,6 +88,7 @@ def working_days(start, n):
         d += dt.timedelta(1)
     return out
 
+LOTCOL = {"VRD": "GO", "SPK/MOA": "SPK", "GO/SPK": "GO + SPK"}
 # ---------------------------------------------------------------- modele
 class Tk: pass
 tasks = []; byk = {}; sums = []
@@ -268,7 +269,7 @@ for o in order:
             tcode = {"FF": 0, "FS": 1, "SF": 2, "SS": 3}[ty]
             w("<PredecessorLink><PredecessorUID>%d</PredecessorUID><Type>%d</Type><CrossProject>0</CrossProject><LinkLag>%d</LinkLag><LagFormat>7</LagFormat></PredecessorLink>"
               % (byk[k].uid, tcode, lag * 4800))
-        w("<ExtendedAttribute><FieldID>188743731</FieldID><Value>%s</Value></ExtendedAttribute>" % escape(o.lot))
+        w("<ExtendedAttribute><FieldID>188743731</FieldID><Value>%s</Value></ExtendedAttribute>" % escape(LOTCOL.get(o.lot, o.lot)))
     w("</Task>")
 w("</Tasks></Project>")
 open(OUT, "w", encoding="utf-8").write("\n".join(x))
@@ -306,6 +307,6 @@ for o in order:
         if lag: txt += "%+d j" % lag
         pr.append(txt)
     d = "0 jour" if o.dur == 0 else "%d jours" % o.dur
-    ws.append([ids[o], o.level, o.name, d, ";".join(pr), o.lot, o.src])
+    ws.append([ids[o], o.level, o.name, d, ";".join(pr), LOTCOL.get(o.lot, o.lot), o.src])
 for col, wd in zip("ABCDEFG", (6, 10, 110, 10, 22, 10, 80)): ws.column_dimensions[col].width = wd
 wb.save(OUT.replace(".xml", "_import_Excel.xlsx"))

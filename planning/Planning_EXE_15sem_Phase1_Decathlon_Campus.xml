@@ -5,8 +5,8 @@
 <Title>26_083 DECATHLON CAMPUS - Planning EXE Phase 1 - GO/VRD/CM/Bardage + SPRINKLAGE</Title>
 <Subject>Planning détaillé Phase 1 (2026) - Lot Gros Œuvre / VRD / CM / Bardage et Lot Sprinklage</Subject>
 <Company>Decathlon Campus - Villeneuve d'Ascq</Company>
-<CreationDate>2026-10-05T07:24:59</CreationDate>
-<LastSaved>2026-10-05T07:24:59</LastSaved>
+<CreationDate>2026-10-05T07:32:08</CreationDate>
+<LastSaved>2026-10-05T07:32:08</LastSaved>
 <ScheduleFromStart>1</ScheduleFromStart>
 <StartDate>2026-11-02T08:00:00</StartDate><FinishDate>2027-02-16T17:00:00</FinishDate>
 <FYStartDate>1</FYStartDate><CriticalSlackLimit>0</CriticalSlackLimit><CurrencyDigits>2</CurrencyDigits>
@@ -144,7 +144,7 @@
 <Start>2026-11-05T08:00:00</Start><Finish>2026-11-06T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : Limites de prestations 1 (si nécessaire). | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>12</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>15</UID><ID>15</ID><Name>[SPK] Raccordements provisoires pour maintien de la protection sprinkleur de l'établissement</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>3.4</WBS><OutlineNumber>3.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2026-11-04T08:00:00</Start><Finish>2026-11-06T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
@@ -164,7 +164,7 @@
 <Notes>Source / hypothèse : Limites de prestations 2 ; DPGF SPK 3.1.4 / 3.1.5. Hamac : durée = vidange → remise en service B2.</Notes>
 <PredecessorLink><PredecessorUID>16</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>136</PredecessorUID><Type>0</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK/MOA</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
 </Task>
 <Task><UID>18</UID><ID>18</ID><Name>4. DÉPOSES ET DÉMOLITIONS - SOURCE B2 / LOCAUX</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4</WBS><OutlineNumber>4</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
 <Start>2026-11-09T08:00:00</Start><Finish>2026-12-03T17:00:00</Finish><Duration>PT144H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
@@ -191,7 +191,7 @@
 <Notes>Source / hypothèse : DPGF GO 5.6.3 ; Limites de prestations 1 (dépose réseaux depuis cuve B2 jusqu'au local source A et B2 = VRD). | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>21</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>16</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>23</UID><ID>23</ID><Name>[GO] Démolition du radier existant + évacuation des gravats (maîtrise poussières)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.1.4</WBS><OutlineNumber>4.1.4</OutlineNumber><OutlineLevel>3</OutlineLevel><Priority>500</Priority>
 <Start>2026-11-26T08:00:00</Start><Finish>2026-11-30T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
@@ -332,7 +332,7 @@
 <Start>2026-12-21T08:00:00</Start><Finish>2026-12-21T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : Limites de prestations 4 : GO réalise, SPK accompagne (P) et valide l'implantation avant coulée. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>45</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO/SPK</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO + SPK</Value></ExtendedAttribute>
 </Task>
 <Task><UID>47</UID><ID>47</ID><Name>[GO] Drain périphérique / gestion des eaux autour du radier (si G2PRO l'impose)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.14</WBS><OutlineNumber>5.14</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2026-12-21T08:00:00</Start><Finish>2026-12-21T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
@@ -441,13 +441,13 @@
 <PredecessorLink><PredecessorUID>49</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>22</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>13</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>65</UID><ID>65</ID><Name>[VRD] Fourreaux électriques 2 x Ø90 (local B2 / réserve d'eau) + chambre de tirage</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.1.2</WBS><OutlineNumber>7.1.2</OutlineNumber><OutlineLevel>3</OutlineLevel><Priority>500</Priority>
 <Start>2027-01-04T08:00:00</Start><Finish>2027-01-04T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : DPGF GO 5.6.4 / 5.6.5 ; Limites de prestations 5 (Électricité). | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>64</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>66</UID><ID>66</ID><Name>[SPK] Pose aspiration fonte DN300 + remplissage/retour essai DN150 (butées béton, tiges filetées) de la cuve à la pièce de scellement</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.1.3</WBS><OutlineNumber>7.1.3</OutlineNumber><OutlineLevel>3</OutlineLevel><Priority>500</Priority>
 <Start>2027-01-04T08:00:00</Start><Finish>2027-01-06T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
@@ -468,7 +468,7 @@
 <Notes>Source / hypothèse : Limites de prestations 5 : remblaiement VRD après pose SPK.</Notes>
 <PredecessorLink><PredecessorUID>67</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>65</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>69</UID><ID>69</ID><Name>7.2 Tranchée 2 - local source B2 ↔ local GE / source A</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.2</WBS><OutlineNumber>7.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2026-12-01T08:00:00</Start><Finish>2026-12-15T17:00:00</Finish><Duration>PT88H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
@@ -478,13 +478,13 @@
 <Notes>Source / hypothèse : DPGF GO 5.6.1 / 5.3.2 ; Limites de prestations 5. Longueur estimée. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>22</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>13</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>71</UID><ID>71</ID><Name>[VRD] Fourreaux électriques 2 x Ø90 (local GE / local B2) + chambre de tirage</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.2.2</WBS><OutlineNumber>7.2.2</OutlineNumber><OutlineLevel>3</OutlineLevel><Priority>500</Priority>
 <Start>2026-12-04T08:00:00</Start><Finish>2026-12-04T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : DPGF GO 5.6.4 / 5.6.5. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>70</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>72</UID><ID>72</ID><Name>[SPK] Pose refoulement fonte DN200 de la pièce de scellement B2 jusqu'au local GE (butées béton)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.2.3</WBS><OutlineNumber>7.2.3</OutlineNumber><OutlineLevel>3</OutlineLevel><Priority>500</Priority>
 <Start>2026-12-04T08:00:00</Start><Finish>2026-12-09T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
@@ -505,7 +505,7 @@
 <Notes>Source / hypothèse : Limites de prestations 5.</Notes>
 <PredecessorLink><PredecessorUID>73</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>71</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>75</UID><ID>75</ID><Name>7.3 Tranchée 3 - EU (puisard trop-plein → regard existant)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.3</WBS><OutlineNumber>7.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2026-12-21T08:00:00</Start><Finish>2027-01-29T17:00:00</Finish><Duration>PT224H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
@@ -514,20 +514,20 @@
 <Start>2026-12-21T08:00:00</Start><Finish>2026-12-23T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : DPGF GO 5.6.7 (ml) ; Limites de prestations 5. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>41</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>77</UID><ID>77</ID><Name>[VRD] Raccordement sur réseau EU existant (branchement), boîte de branchement, reprise des sorties EU à 1,00 m</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.3.2</WBS><OutlineNumber>7.3.2</OutlineNumber><OutlineLevel>3</OutlineLevel><Priority>500</Priority>
 <Start>2027-01-28T08:00:00</Start><Finish>2027-01-28T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : Limites de prestations 5. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>76</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>59</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>78</UID><ID>78</ID><Name>[VRD] Remblaiement et compactage tranchée EU</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.3.3</WBS><OutlineNumber>7.3.3</OutlineNumber><OutlineLevel>3</OutlineLevel><Priority>500</Priority>
 <Start>2027-01-29T08:00:00</Start><Finish>2027-01-29T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : Limites de prestations 5.</Notes>
 <PredecessorLink><PredecessorUID>77</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>79</UID><ID>79</ID><Name>7.4 Électricité - réseaux enterrés</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.4</WBS><OutlineNumber>7.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2027-01-05T08:00:00</Start><Finish>2027-01-07T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
@@ -970,14 +970,14 @@
 <Notes>Source / hypothèse : DPGF GO 5.10.3 (ml).</Notes>
 <PredecessorLink><PredecessorUID>74</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>10</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>151</UID><ID>151</ID><Name>[VRD] Réfection voie technique : reprofilage GNT 30 cm, géotextile cl.4, enrobé noir 5 cm au droit des réseaux</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>15.2</WBS><OutlineNumber>15.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2027-01-12T08:00:00</Start><Finish>2027-01-14T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : DPGF GO 5.10.4 (m²) ; Limites de prestations 6. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>150</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>68</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>152</UID><ID>152</ID><Name>[VRD] Dépose des pistes d'accès chantier + évacuation + reprofilage</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>15.3</WBS><OutlineNumber>15.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2027-02-02T08:00:00</Start><Finish>2027-02-02T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
@@ -986,38 +986,38 @@
 <PredecessorLink><PredecessorUID>78</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>92</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>68</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>153</UID><ID>153</ID><Name>[VRD] Mouvements de terres, nivellement espaces verts + apport terre végétale 0,30 m mini</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>15.4</WBS><OutlineNumber>15.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2027-02-03T08:00:00</Start><Finish>2027-02-04T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : Limites de prestations 6. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>152</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>154</UID><ID>154</ID><Name>[VRD] Préparation avant engazonnement (nettoyage, rotavator 0,20 m, amendements, réglage)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>15.5</WBS><OutlineNumber>15.5</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2027-02-05T08:00:00</Start><Finish>2027-02-05T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : DPGF GO 5.10.1. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>153</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>155</UID><ID>155</ID><Name>[VRD] Engazonnement (semis 3 kg/are, roulage, ratissage) - plantations gazon</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>15.6</WBS><OutlineNumber>15.6</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2027-02-08T08:00:00</Start><Finish>2027-02-08T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : DPGF GO 5.10.2 (m²). Contrôle à 1 mois / tonte à 15 j hors planning. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>154</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>156</UID><ID>156</ID><Name>[VRD] Réfection des cheminements de chantier</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>15.7</WBS><OutlineNumber>15.7</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2027-02-03T08:00:00</Start><Finish>2027-02-03T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : Limites de prestations 6. | Durée recalée EXE (15 semaines) : renfort d'équipes / travail en parallèle.</Notes>
 <PredecessorLink><PredecessorUID>152</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>157</UID><ID>157</ID><Name>[VRD] Curage + contrôle caméra des réseaux EU en fin de travaux</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>15.8</WBS><OutlineNumber>15.8</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
 <Start>2027-02-03T08:00:00</Start><Finish>2027-02-03T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 <Notes>Source / hypothèse : Limites de prestations 5.</Notes>
 <PredecessorLink><PredecessorUID>78</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <PredecessorLink><PredecessorUID>152</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
-<ExtendedAttribute><FieldID>188743731</FieldID><Value>VRD</Value></ExtendedAttribute>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>GO</Value></ExtendedAttribute>
 </Task>
 <Task><UID>158</UID><ID>158</ID><Name>16. FIN DE CHANTIER, DOE, RÉCEPTION PHASE 1</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>16</WBS><OutlineNumber>16</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
 <Start>2027-02-10T08:00:00</Start><Finish>2027-02-16T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
