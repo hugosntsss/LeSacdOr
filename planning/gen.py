@@ -2,7 +2,7 @@
 import re, sys, datetime as dt
 from xml.sax.saxutils import escape
 sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
-import data
+import data_exe as data
 
 START = dt.date(2026, 11, 2)   # lundi - date par defaut (modifiable dans MS Project)
 OUT = sys.argv[1] if len(sys.argv) > 1 else "planning.xml"
@@ -206,8 +206,8 @@ w = x.append
 w('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>')
 w('<Project xmlns="http://schemas.microsoft.com/project">')
 w("<SaveVersion>14</SaveVersion>")
-w("<Name>Planning Phase 1 - Decathlon Campus - Révision majeure sprinklage</Name>")
-w("<Title>26_083 DECATHLON CAMPUS - Phase 1 - GO/VRD/CM/Bardage + SPRINKLAGE</Title>")
+w("<Name>Planning EXE Phase 1 (15 semaines) - Decathlon Campus - Sprinklage + Gros Œuvre</Name>")
+w("<Title>26_083 DECATHLON CAMPUS - Planning EXE Phase 1 - GO/VRD/CM/Bardage + SPRINKLAGE</Title>")
 w("<Subject>Planning détaillé Phase 1 (2026) - Lot Gros Œuvre / VRD / CM / Bardage et Lot Sprinklage</Subject>")
 w("<Company>Decathlon Campus - Villeneuve d'Ascq</Company>")
 w("<CreationDate>%s</CreationDate>" % dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"))
