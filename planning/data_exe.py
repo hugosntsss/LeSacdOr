@@ -49,7 +49,7 @@ OV = {  # cle: (duree, predecesseurs ou None si inchange)
  "fin_hui": (1, "vr_semis,vr_chem,vr_enr,vr_cur,bv_lames"), "go_doe": (3, None), "fin_repli": (2, None), "fin_opr": (1, None),
 }
 SECT = {"11. SOURCES A / B1 / JOCKEY (apres remise en service de la source B2)": "SOURCES A / B1 / JOCKEY (AVANT vidange B2 - la B2 reste en service pendant ces travaux)",
-        "12. POSTES DE CONTROLE (apres retour des sources)": "POSTES DE CONTROLE (apres retour de la source A, B2 vidangee : mesures compensatoires)"}
+        "12. POSTES DE CONTROLE (apres retour des sources)": "POSTES DE CONTROLE (après retour de la source A, B2 vidangée : mesures compensatoires)"}
 
 def clean_preds(p):
     return ",".join(x for x in p.split(",") if x and re.match(r"\w+", x).group(0) not in removed)

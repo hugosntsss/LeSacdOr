@@ -5,8 +5,8 @@
 <Title>26_083 DECATHLON CAMPUS - Planning EXE Phase 1 - GO/VRD/CM/Bardage + SPRINKLAGE</Title>
 <Subject>Planning détaillé Phase 1 (2026) - Lot Gros Œuvre / VRD / CM / Bardage et Lot Sprinklage</Subject>
 <Company>Decathlon Campus - Villeneuve d'Ascq</Company>
-<CreationDate>2026-10-05T07:20:37</CreationDate>
-<LastSaved>2026-10-05T07:20:37</LastSaved>
+<CreationDate>2026-10-05T07:24:59</CreationDate>
+<LastSaved>2026-10-05T07:24:59</LastSaved>
 <ScheduleFromStart>1</ScheduleFromStart>
 <StartDate>2026-11-02T08:00:00</StartDate><FinishDate>2027-02-16T17:00:00</FinishDate>
 <FYStartDate>1</FYStartDate><CriticalSlackLimit>0</CriticalSlackLimit><CurrencyDigits>2</CurrencyDigits>
@@ -732,7 +732,7 @@
 <PredecessorLink><PredecessorUID>111</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
 <ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
 </Task>
-<Task><UID>113</UID><ID>113</ID><Name>11. POSTES DE CONTRÔLE (après retour de la source A, B2 vidangee : mesures compensatoires)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>11</WBS><OutlineNumber>11</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Task><UID>113</UID><ID>113</ID><Name>11. POSTES DE CONTRÔLE (après retour de la source A, B2 vidangée : mesures compensatoires)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>11</WBS><OutlineNumber>11</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
 <Start>2026-11-18T08:00:00</Start><Finish>2026-12-03T17:00:00</Finish><Duration>PT96H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
 </Task>
 <Task><UID>114</UID><ID>114</ID><Name>[SPK] Entretien triennal poste de contrôle PC1 (démontage, joints, clapet compensateur, essai réel point F)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>11.1</WBS><OutlineNumber>11.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
