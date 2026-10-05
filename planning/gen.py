@@ -205,7 +205,7 @@ x = []
 w = x.append
 w('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>')
 w('<Project xmlns="http://schemas.microsoft.com/project">')
-w("<SaveVersion>14</SaveVersion><BuildNumber>14.0.7015.1000</BuildNumber>")
+w("<SaveVersion>14</SaveVersion>")
 w("<Name>Planning Phase 1 - Decathlon Campus - Révision majeure sprinklage</Name>")
 w("<Title>26_083 DECATHLON CAMPUS - Phase 1 - GO/VRD/CM/Bardage + SPRINKLAGE</Title>")
 w("<Subject>Planning détaillé Phase 1 (2026) - Lot Gros Œuvre / VRD / CM / Bardage et Lot Sprinklage</Subject>")
@@ -227,11 +227,11 @@ w("<TaskUpdatesResource>1</TaskUpdatesResource><FiscalYearStart>0</FiscalYearSta
 w("<MoveCompletedEndsBack>0</MoveCompletedEndsBack><MoveRemainingStartsBack>0</MoveRemainingStartsBack><MoveRemainingStartsForward>0</MoveRemainingStartsForward>")
 w("<MoveCompletedEndsForward>0</MoveCompletedEndsForward><BaselineForEarnedValue>0</BaselineForEarnedValue><AutoAddNewResourcesAndTasks>1</AutoAddNewResourcesAndTasks>")
 w("<StatusDate>%s</StatusDate><CurrentDate>%s</CurrentDate>" % (ts(START), ts(START)))
-w("<MicrosoftProjectServerURL>0</MicrosoftProjectServerURL><Autolink>1</Autolink><NewTaskStartDate>0</NewTaskStartDate>")
+w("<Autolink>1</Autolink><NewTaskStartDate>0</NewTaskStartDate>")
 w("<NewTasksAreManual>0</NewTasksAreManual><DefaultTaskEVMethod>0</DefaultTaskEVMethod><ProjectExternallyEdited>0</ProjectExternallyEdited>")
-w("<ExtendedCreationDate>1984-01-01T00:00:00</ExtendedCreationDate><ActualsInSync>0</ActualsInSync><RemoveFileProperties>0</RemoveFileProperties><AdminProject>0</AdminProject>")
+w("")
 w("<ExtendedAttributes>")
-for fid, fname, alias in [(188743731, "Text1", "Lot"), (188743734, "Text2", "Source / base de la durée")]:
+for fid, fname, alias in [(188743731, "Text1", "Lot")]:
     w("<ExtendedAttribute><FieldID>%d</FieldID><FieldName>%s</FieldName><Alias>%s</Alias></ExtendedAttribute>" % (fid, fname, escape(alias)))
 w("</ExtendedAttributes>")
 # calendrier
@@ -247,11 +247,6 @@ for d in sorted(HOL):
       "<Occurrences>1</Occurrences><Name>%s</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>" % (d, d, escape(HOL[d])))
 w("</Exceptions></Calendar></Calendars>")
 w("<Tasks>")
-# tache 0 (resume projet)
-w("<Task><UID>0</UID><ID>0</ID><Name>%s</Name><Type>1</Type><IsNull>0</IsNull><WBS>0</WBS><OutlineNumber>0</OutlineNumber><OutlineLevel>0</OutlineLevel>"
-  "<Priority>500</Priority><Start>%s</Start><Finish>%s</Finish><Duration>%s</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work>"
-  "<Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType></Task>"
-  % (escape("PHASE 1 - DECATHLON CAMPUS - SPRINKLAGE / GROS ŒUVRE"), ts(START), ts(CAL[END], True), dur(END + 1)))
 for o in order:
     w("<Task><UID>%d</UID><ID>%d</ID><Name>%s</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull>"
       "<WBS>%s</WBS><OutlineNumber>%s</OutlineNumber><OutlineLevel>%d</OutlineLevel><Priority>500</Priority>" % (o.uid, o.id, escape(o.name), o.wbs, o.wbs, o.level))
@@ -274,9 +269,8 @@ for o in order:
             w("<PredecessorLink><PredecessorUID>%d</PredecessorUID><Type>%d</Type><CrossProject>0</CrossProject><LinkLag>%d</LinkLag><LagFormat>7</LagFormat></PredecessorLink>"
               % (byk[k].uid, tcode, lag * 4800))
         w("<ExtendedAttribute><FieldID>188743731</FieldID><Value>%s</Value></ExtendedAttribute>" % escape(o.lot))
-        w("<ExtendedAttribute><FieldID>188743734</FieldID><Value>%s</Value></ExtendedAttribute>" % escape(o.src))
     w("</Task>")
-w("</Tasks><Resources><Resource><UID>0</UID><ID>0</ID><Name></Name><Type>1</Type><IsNull>0</IsNull><MaxUnits>1</MaxUnits></Resource></Resources><Assignments></Assignments></Project>")
+w("</Tasks></Project>")
 open(OUT, "w", encoding="utf-8").write("\n".join(x))
 
 # ---------------------------------------------------------------- rapport
@@ -291,3 +285,27 @@ for t in sorted([t for t in tasks if t.crit], key=lambda t: t.sd):
 b = byk
 print("\nIndisponibilite B2: vidange", D(b["spk_vidange"].sd), "-> remise en service", D(b["spk_msb2"].fd), "=", b["spk_msb2"].fd - b["spk_vidange"].sd + 1, "j ouvres")
 print("Hamacs:", [(t.key, t.dur) for t in tasks if t.span])
+
+# ---------------------------------------------------------------- export Excel (assistant d'import Project)
+import openpyxl
+from openpyxl.styles import Font
+wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Planning"
+ws.append(["ID", "Niveau hiérarchique", "Nom", "Durée", "Prédécesseurs", "Lot", "Source / hypothèse"])
+for c in ws[1]: c.font = Font(bold=True)
+ids = {o: i + 1 for i, o in enumerate(order)}
+for o in order:
+    if o.kind == "S":
+        ws.append([ids[o], o.level, o.name, None, None, None, None]); continue
+    pr = []
+    for k, ty, lag in o.links:
+        if byk[k].key == "m_start" and ty == "FS" and not lag and o.key != "m_start":
+            code = "FD"
+        else:
+            code = {"FS": "FD", "SS": "DD", "FF": "FF"}[ty]
+        txt = str(ids[byk[k]]) + code
+        if lag: txt += "%+d j" % lag
+        pr.append(txt)
+    d = "0 jour" if o.dur == 0 else "%d jours" % o.dur
+    ws.append([ids[o], o.level, o.name, d, ";".join(pr), o.lot, o.src])
+for col, wd in zip("ABCDEFG", (6, 10, 110, 10, 22, 10, 80)): ws.column_dimensions[col].width = wd
+wb.save(OUT.replace(".xml", "_import_Excel.xlsx"))
