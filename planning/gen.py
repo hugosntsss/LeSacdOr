@@ -2,7 +2,7 @@
 import re, sys, datetime as dt
 from xml.sax.saxutils import escape
 sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
-import data_exe as data
+import data_eiffage as data
 
 START = dt.date(2026, 11, 2)   # lundi - date par defaut (modifiable dans MS Project)
 OUT = sys.argv[1] if len(sys.argv) > 1 else "planning.xml"

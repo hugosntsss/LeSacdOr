@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/project">
+<SaveVersion>14</SaveVersion>
+<Name>Planning EXE Phase 1 (15 semaines) - Decathlon Campus - Sprinklage + Gros Œuvre</Name>
+<Title>26_083 DECATHLON CAMPUS - Planning EXE Phase 1 - EIFFAGE + SPRINKLAGE</Title>
+<Subject>Planning détaillé Phase 1 (2026) - Lot EIFFAGE (gros œuvre, VRD, CM, bardage) et Lot Sprinklage</Subject>
+<Company>Decathlon Campus - Villeneuve d'Ascq</Company>
+<CreationDate>2026-10-06T08:42:45</CreationDate>
+<LastSaved>2026-10-06T08:42:45</LastSaved>
+<ScheduleFromStart>1</ScheduleFromStart>
+<StartDate>2026-11-02T08:00:00</StartDate><FinishDate>2027-02-12T17:00:00</FinishDate>
+<FYStartDate>1</FYStartDate><CriticalSlackLimit>0</CriticalSlackLimit><CurrencyDigits>2</CurrencyDigits>
+<CurrencySymbol>€</CurrencySymbol><CurrencySymbolPosition>1</CurrencySymbolPosition><CalendarUID>1</CalendarUID>
+<DefaultStartTime>08:00:00</DefaultStartTime><DefaultFinishTime>17:00:00</DefaultFinishTime>
+<MinutesPerDay>480</MinutesPerDay><MinutesPerWeek>2400</MinutesPerWeek><DaysPerMonth>20</DaysPerMonth>
+<DefaultTaskType>1</DefaultTaskType><DefaultFixedCostAccrual>3</DefaultFixedCostAccrual><DefaultStandardRate>0</DefaultStandardRate>
+<DefaultOvertimeRate>0</DefaultOvertimeRate><DurationFormat>7</DurationFormat><WorkFormat>2</WorkFormat><EditableActualCosts>0</EditableActualCosts>
+<HonorConstraints>1</HonorConstraints><EarnedValueMethod>0</EarnedValueMethod><InsertedProjectsLikeSummary>0</InsertedProjectsLikeSummary>
+<MultipleCriticalPaths>0</MultipleCriticalPaths><NewTasksEffortDriven>0</NewTasksEffortDriven><NewTasksEstimated>0</NewTasksEstimated>
+<SplitsInProgressTasks>1</SplitsInProgressTasks><SpreadActualCost>0</SpreadActualCost><SpreadPercentComplete>0</SpreadPercentComplete>
+<TaskUpdatesResource>1</TaskUpdatesResource><FiscalYearStart>0</FiscalYearStart><WeekStartDay>1</WeekStartDay>
+<MoveCompletedEndsBack>0</MoveCompletedEndsBack><MoveRemainingStartsBack>0</MoveRemainingStartsBack><MoveRemainingStartsForward>0</MoveRemainingStartsForward>
+<MoveCompletedEndsForward>0</MoveCompletedEndsForward><BaselineForEarnedValue>0</BaselineForEarnedValue><AutoAddNewResourcesAndTasks>1</AutoAddNewResourcesAndTasks>
+<StatusDate>2026-11-02T08:00:00</StatusDate><CurrentDate>2026-11-02T08:00:00</CurrentDate>
+<Autolink>1</Autolink><NewTaskStartDate>0</NewTaskStartDate>
+<NewTasksAreManual>0</NewTasksAreManual><DefaultTaskEVMethod>0</DefaultTaskEVMethod><ProjectExternallyEdited>0</ProjectExternallyEdited>
+
+<ExtendedAttributes>
+<ExtendedAttribute><FieldID>188743731</FieldID><FieldName>Text1</FieldName><Alias>Lot</Alias></ExtendedAttribute>
+</ExtendedAttributes>
+<Calendars><Calendar><UID>1</UID><Name>Standard (lun-ven, jours fériés FR)</Name><IsBaseCalendar>1</IsBaseCalendar><IsBaselineCalendar>0</IsBaselineCalendar><BaseCalendarUID>-1</BaseCalendarUID><WeekDays>
+<WeekDay><DayType>1</DayType><DayWorking>0</DayWorking></WeekDay>
+<WeekDay><DayType>2</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>3</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>4</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>5</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>6</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>7</DayType><DayWorking>0</DayWorking></WeekDay></WeekDays><Exceptions>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-01-01T00:00:00</FromDate><ToDate>2026-01-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Jour de l'an</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-04-06T00:00:00</FromDate><ToDate>2026-04-06T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Lundi de Pâques</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-05-01T00:00:00</FromDate><ToDate>2026-05-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Fête du travail</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-05-08T00:00:00</FromDate><ToDate>2026-05-08T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Victoire 1945</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-05-14T00:00:00</FromDate><ToDate>2026-05-14T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Ascension</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-05-25T00:00:00</FromDate><ToDate>2026-05-25T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Lundi de Pentecôte</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-07-14T00:00:00</FromDate><ToDate>2026-07-14T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Fête nationale</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-11-11T00:00:00</FromDate><ToDate>2026-11-11T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Armistice 1918</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2026-12-25T00:00:00</FromDate><ToDate>2026-12-25T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Noël</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2027-01-01T00:00:00</FromDate><ToDate>2027-01-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Jour de l'an</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2027-03-29T00:00:00</FromDate><ToDate>2027-03-29T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Lundi de Pâques</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2027-05-06T00:00:00</FromDate><ToDate>2027-05-06T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Ascension</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2027-05-17T00:00:00</FromDate><ToDate>2027-05-17T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Lundi de Pentecôte</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2027-07-14T00:00:00</FromDate><ToDate>2027-07-14T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Fête nationale</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2027-11-01T00:00:00</FromDate><ToDate>2027-11-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Toussaint</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2027-11-11T00:00:00</FromDate><ToDate>2027-11-11T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Armistice 1918</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-04-17T00:00:00</FromDate><ToDate>2028-04-17T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Lundi de Pâques</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-05-01T00:00:00</FromDate><ToDate>2028-05-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Fête du travail</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-05-08T00:00:00</FromDate><ToDate>2028-05-08T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Victoire 1945</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-05-25T00:00:00</FromDate><ToDate>2028-05-25T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Ascension</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-06-05T00:00:00</FromDate><ToDate>2028-06-05T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Lundi de Pentecôte</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-07-14T00:00:00</FromDate><ToDate>2028-07-14T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Fête nationale</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-08-15T00:00:00</FromDate><ToDate>2028-08-15T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Assomption</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-11-01T00:00:00</FromDate><ToDate>2028-11-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Toussaint</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2028-12-25T00:00:00</FromDate><ToDate>2028-12-25T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Noël</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-01-01T00:00:00</FromDate><ToDate>2029-01-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Jour de l'an</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-04-02T00:00:00</FromDate><ToDate>2029-04-02T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Lundi de Pâques</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-05-01T00:00:00</FromDate><ToDate>2029-05-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Fête du travail</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-05-08T00:00:00</FromDate><ToDate>2029-05-08T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Victoire 1945</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-05-10T00:00:00</FromDate><ToDate>2029-05-10T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Ascension</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-05-21T00:00:00</FromDate><ToDate>2029-05-21T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Lundi de Pentecôte</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-08-15T00:00:00</FromDate><ToDate>2029-08-15T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Assomption</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-11-01T00:00:00</FromDate><ToDate>2029-11-01T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Toussaint</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+<Exception><EnteredByOccurrences>0</EnteredByOccurrences><TimePeriod><FromDate>2029-12-25T00:00:00</FromDate><ToDate>2029-12-25T23:59:00</ToDate></TimePeriod><Occurrences>1</Occurrences><Name>Noël</Name><Type>1</Type><DayWorking>0</DayWorking></Exception>
+</Exceptions></Calendar></Calendars>
+<Tasks>
+<Task><UID>1</UID><ID>1</ID><Name>1. DÉMARRAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>1</WBS><OutlineNumber>1</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-02T08:00:00</Start><Finish>2026-11-02T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>2</UID><ID>2</ID><Name>DÉMARRAGE DES TRAVAUX EIFFAGE (OS) - date modifiable via Informations sur le projet</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>1.1</WBS><OutlineNumber>1.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-02T08:00:00</Start><Finish>2026-11-02T08:00:00</Finish><Duration>PT0H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>1</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Modifier la date de début du projet : tout le planning se décale.</Notes>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>3</UID><ID>3</ID><Name>2. INSTALLATION DE CHANTIER</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>2</WBS><OutlineNumber>2</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-02T08:00:00</Start><Finish>2026-11-06T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>4</UID><ID>4</ID><Name>[EIFFAGE] Constat d'huissier avant travaux (site, voiries, végétation)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>2.1</WBS><OutlineNumber>2.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-02T08:00:00</Start><Finish>2026-11-02T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.1.1 ; CCTP EIFFAGE 5.1.1 / 3.5.</Notes>
+<PredecessorLink><PredecessorUID>2</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>5</UID><ID>5</ID><Name>[SPK] Clôture de chantier + base vie commune + armoire de chantier (SPK) - préalable aux interventions EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>2.2</WBS><OutlineNumber>2.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-02T08:00:00</Start><Finish>2026-11-03T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 1 : clôture, base vie, armoire = SPK. CCTP EIFFAGE 5.1.3, 5.1.9.</Notes>
+<PredecessorLink><PredecessorUID>2</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>6</UID><ID>6</ID><Name>[EIFFAGE] Pistes d'accès engins + plateforme de circulation sur géotextile classe 5</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>2.3</WBS><OutlineNumber>2.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-04T08:00:00</Start><Finish>2026-11-06T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.3.3 ; Limites de prestations 1 (si nécessaire).</Notes>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>4</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>7</UID><ID>7</ID><Name>[EIFFAGE] Dépose et stockage des bordures béton (réemploi en fin de chantier)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>2.4</WBS><OutlineNumber>2.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-04T08:00:00</Start><Finish>2026-11-04T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.3.4.</Notes>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>8</UID><ID>8</ID><Name>3. PHASAGE - DÉVOIEMENTS ET MISE HORS SERVICE SOURCE B2</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>3</WBS><OutlineNumber>3</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-04T08:00:00</Start><Finish>2026-11-13T17:00:00</Finish><Duration>PT56H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>9</UID><ID>9</ID><Name>[EIFFAGE] Piquetage/marquage et reconnaissance des réseaux existants dans l'emprise (DN100 AEP, DN150 incendie, EU/EV/EP/électricité/fibre)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>3.1</WBS><OutlineNumber>3.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-04T08:00:00</Start><Finish>2026-11-04T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : CCTP EIFFAGE 5.6.2 ; Limites de prestations 1.</Notes>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>10</UID><ID>10</ID><Name>[EIFFAGE] Dévoiement réseau incendie DN150 + alimentation AEP/arrosage DN100 hors emprise radier (essais, DOE)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>3.2</WBS><OutlineNumber>3.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-05T08:00:00</Start><Finish>2026-11-13T17:00:00</Finish><Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.6.2 ; Limites de prestations 1. Continuité du réseau incendie à maintenir (coupure ponctuelle validée MOA).</Notes>
+<PredecessorLink><PredecessorUID>9</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>11</UID><ID>11</ID><Name>[EIFFAGE] Dévoiement EU / EV / EP / électricité / fibre / arrosage si nécessaire (relevé NCA)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>3.3</WBS><OutlineNumber>3.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-05T08:00:00</Start><Finish>2026-11-06T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 1 (si nécessaire).</Notes>
+<PredecessorLink><PredecessorUID>9</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>12</UID><ID>12</ID><Name>[SPK] Raccordements provisoires + mesures compensatoires avant coupure de la B2 (gardiennage MOA : préavis 5 semaines)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>3.4</WBS><OutlineNumber>3.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-04T08:00:00</Start><Finish>2026-11-06T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 2 ; DPGF SPK 3.1.4 ; CCTP SPK 3.1.4. Durée estimée.</Notes>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>13</UID><ID>13</ID><Name>[SPK] Consignation + VIDANGE cuve source B2 (début de l'indisponibilité de la B2)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>3.5</WBS><OutlineNumber>3.5</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-09T08:00:00</Start><Finish>2026-11-10T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 1/2. Décalage 25 jours ouvrés = 5 semaines de préavis gardiennage.</Notes>
+<PredecessorLink><PredecessorUID>12</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>14</UID><ID>14</ID><Name>4. DÉPOSES ET DÉMOLITIONS - SOURCE B2</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4</WBS><OutlineNumber>4</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-09T08:00:00</Start><Finish>2026-11-26T17:00:00</Finish><Duration>PT104H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>15</UID><ID>15</ID><Name>[EIFFAGE] Dépose brise-vue bois + charpente métallique support + grille d'accès/porte grillagée (évacuation)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.1</WBS><OutlineNumber>4.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-09T08:00:00</Start><Finish>2026-11-12T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.4.1 ; Limites de prestations 4 / Travaux réserves d'eau B2. Fait avant la vidange pour réduire l'indisponibilité.</Notes>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>6</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>4</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>16</UID><ID>16</ID><Name>[SPK] Dépose et évacuation de la cuve B2 existante (SPK) - EIFFAGE démolit le radier ensuite</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.2</WBS><OutlineNumber>4.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-13T08:00:00</Start><Finish>2026-11-18T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF SPK 3.5 ; CCTP EIFFAGE 5.4.2 (par lot SPK). Durée estimée (cuve acier 405 m³).</Notes>
+<PredecessorLink><PredecessorUID>13</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>15</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>17</UID><ID>17</ID><Name>[SPK] Dépose du GMPD B2 + tuyauteries (SPK) - avant dépose des pièces de scellement EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.3</WBS><OutlineNumber>4.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-12T08:00:00</Start><Finish>2026-11-13T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF SPK 3.5 (Source B2 - GMPD).</Notes>
+<PredecessorLink><PredecessorUID>13</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>18</UID><ID>18</ID><Name>[SPK] Dépose des réseaux existants local GE (SPK) - avant démolition dalle EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.4</WBS><OutlineNumber>4.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-12T08:00:00</Start><Finish>2026-11-12T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations Travaux local GE.</Notes>
+<PredecessorLink><PredecessorUID>13</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>19</UID><ID>19</ID><Name>[EIFFAGE] Dépose des réseaux existants cuve B2 → local B2 → local A/GE (terrassement, évacuation, remblaiement)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.5</WBS><OutlineNumber>4.5</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-19T08:00:00</Start><Finish>2026-11-23T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.6.3 ; Limites de prestations 1 (dépose réseaux depuis cuve B2 jusqu'au local source A et B2 = EIFFAGE).</Notes>
+<PredecessorLink><PredecessorUID>16</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>13</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>20</UID><ID>20</ID><Name>[EIFFAGE] Démolition du radier existant + évacuation des gravats (maîtrise poussières)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.6</WBS><OutlineNumber>4.6</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-19T08:00:00</Start><Finish>2026-11-24T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.4.3 (ens.). Durée estimée.</Notes>
+<PredecessorLink><PredecessorUID>16</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>10</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>21</UID><ID>21</ID><Name>[EIFFAGE] Étêtage des fondations existantes à -1,00 m du niveau plateforme + évacuation</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.7</WBS><OutlineNumber>4.7</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-20T08:00:00</Start><Finish>2026-11-23T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 4.</Notes>
+<PredecessorLink><PredecessorUID>20</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>4800</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>22</UID><ID>22</ID><Name>[EIFFAGE] Relevé géomètre + plan de récolement des ouvrages enterrés, adaptation des fondations</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.8</WBS><OutlineNumber>4.8</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-24T08:00:00</Start><Finish>2026-11-24T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 4 ; CCTP EIFFAGE 5.4.4.</Notes>
+<PredecessorLink><PredecessorUID>21</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>23</UID><ID>23</ID><Name>[EIFFAGE] (OPTION 5.4.4) Purge des fondations profondes existantes (-80 cm sous niveau final) + remblai sablo-graveleux</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.9</WBS><OutlineNumber>4.9</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-25T08:00:00</Start><Finish>2026-11-26T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.4.4 OPTIONNEL : mode de fondation existant inconnu. Mettre la durée à 0 si l'option n'est pas retenue.</Notes>
+<PredecessorLink><PredecessorUID>22</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>24</UID><ID>24</ID><Name>[EIFFAGE] Dépose des pièces de scellement existantes local B2 + reprise des percements (DN300, DN200, DN150, échappement)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.10</WBS><OutlineNumber>4.10</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-16T08:00:00</Start><Finish>2026-11-17T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.8.2 ; Limites de prestations Travaux source B2.</Notes>
+<PredecessorLink><PredecessorUID>17</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>25</UID><ID>25</ID><Name>[EIFFAGE] Démolition contrôlée réservation dalle basse et soubassement local GE (sciage, mise à nu des armatures)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.11</WBS><OutlineNumber>4.11</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-13T08:00:00</Start><Finish>2026-11-16T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.8.5 ; Limites de prestations Travaux local GE.</Notes>
+<PredecessorLink><PredecessorUID>18</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>26</UID><ID>26</ID><Name>[EIFFAGE] Dépose pièce de scellement existante local GE + création du percement DN200</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>4.12</WBS><OutlineNumber>4.12</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-17T08:00:00</Start><Finish>2026-11-17T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations Travaux local GE.</Notes>
+<PredecessorLink><PredecessorUID>25</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>27</UID><ID>27</ID><Name>5. FONDATIONS ET RADIER - CUVE B2</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5</WBS><OutlineNumber>5</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-16T08:00:00</Start><Finish>2027-01-06T17:00:00</Finish><Duration>PT288H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>28</UID><ID>28</ID><Name>[EIFFAGE] Plateforme de travail pour pieux (portance EV2 &gt; 50 MPa, géotextile)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.1</WBS><OutlineNumber>5.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-27T08:00:00</Start><Finish>2026-11-30T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 4 ; DPGF EIFFAGE 5.3.3.</Notes>
+<PredecessorLink><PredecessorUID>22</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>23</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>29</UID><ID>29</ID><Name>[EIFFAGE] Épuisement des eaux / rabattement de nappe (nappe ~ 27,4 NGF) pendant les fondations</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.2</WBS><OutlineNumber>5.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-27T08:00:00</Start><Finish>2026-12-22T17:00:00</Finish><Duration>PT144H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.3.7 ; CCTP EIFFAGE 4.7.2 ; Limites de prestations 3. Hamac plateforme → coulage radier.</Notes>
+<PredecessorLink><PredecessorUID>28</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>44</PredecessorUID><Type>0</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>30</UID><ID>30</ID><Name>[EIFFAGE] Pieux à tarière creuse (amenée/repli du matériel, forage, armatures, béton) - ~20 à 25 u. à confirmer PEO</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.3</WBS><OutlineNumber>5.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-01T08:00:00</Start><Finish>2026-12-07T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.5.1 (u) ; CCTP EIFFAGE 5.5.1 ; G2PRO Fondasol. Hypothèse ~5 pieux/jour.</Notes>
+<PredecessorLink><PredecessorUID>28</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>31</UID><ID>31</ID><Name>[EIFFAGE] Stockage sur polyane et évacuation des terres et boues de forage + nettoyage voies</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.4</WBS><OutlineNumber>5.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-02T08:00:00</Start><Finish>2026-12-04T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.5.2 / 5.3.8.</Notes>
+<PredecessorLink><PredecessorUID>30</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>4800</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>32</UID><ID>32</ID><Name>[EIFFAGE] Essais et contrôle des pieux (DTU 13.2 / NF P94-262)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.5</WBS><OutlineNumber>5.5</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-08T08:00:00</Start><Finish>2026-12-09T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : CCTP EIFFAGE 5.5.1.</Notes>
+<PredecessorLink><PredecessorUID>30</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>33</UID><ID>33</ID><Name>[EIFFAGE] Recépage des pieux</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.6</WBS><OutlineNumber>5.6</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-08T08:00:00</Start><Finish>2026-12-08T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : CCTP EIFFAGE 5.5.1.</Notes>
+<PredecessorLink><PredecessorUID>30</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>34</UID><ID>34</ID><Name>[EIFFAGE] Terrassement fouille radier + substitution remblais de portance + fond de forme (débord 1 m)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.7</WBS><OutlineNumber>5.7</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-09T08:00:00</Start><Finish>2026-12-10T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.3.5 / 5.3.6 (m³).</Notes>
+<PredecessorLink><PredecessorUID>33</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>35</UID><ID>35</ID><Name>[EIFFAGE] Puisard de trop-plein de la cuve (terrassement, béton de propreté, grille circulable)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.8</WBS><OutlineNumber>5.8</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-11T08:00:00</Start><Finish>2026-12-14T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.6.6 ; CCTP EIFFAGE 5.6.6.</Notes>
+<PredecessorLink><PredecessorUID>34</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>36</UID><ID>36</ID><Name>[EIFFAGE] Béton de propreté (e &gt;= 5 cm) sous radier</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.9</WBS><OutlineNumber>5.9</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-11T08:00:00</Start><Finish>2026-12-11T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.5.3.</Notes>
+<PredecessorLink><PredecessorUID>34</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>37</UID><ID>37</ID><Name>[EIFFAGE] Boucle de terre fond de fouille (câble nu 25 mm2, R &lt;= 3 ohms) + attentes de terre cuve</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.10</WBS><OutlineNumber>5.10</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-14T08:00:00</Start><Finish>2026-12-14T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.3.9 ; Limites de prestations 3 (boucle de terre du radier = EIFFAGE).</Notes>
+<PredecessorLink><PredecessorUID>36</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>38</UID><ID>38</ID><Name>[EIFFAGE] Pose massifs, platines et boîtes de réservation de pre-scellement (poteaux brise-vue)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.11</WBS><OutlineNumber>5.11</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-14T08:00:00</Start><Finish>2026-12-14T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.5.4.</Notes>
+<PredecessorLink><PredecessorUID>36</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>39</UID><ID>39</ID><Name>[EIFFAGE] Couche de forme + sablon d'égalisation + film polyéthylène</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.12</WBS><OutlineNumber>5.12</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-14T08:00:00</Start><Finish>2026-12-14T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : CCTP EIFFAGE 5.5.5.</Notes>
+<PredecessorLink><PredecessorUID>36</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>40</UID><ID>40</ID><Name>[SPK] Livraison sur site : pièces de scellement + tuyauterie d'aspiration DN300 (fournitures SPK pour EIFFAGE)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.13</WBS><OutlineNumber>5.13</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-16T08:00:00</Start><Finish>2026-11-16T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 4 (source B2, local GE) : fourniture SPK.</Notes>
+<PredecessorLink><PredecessorUID>17</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>41</UID><ID>41</ID><Name>[EIFFAGE] Pose et incorporation de la tuyauterie d'aspiration DN300 sous radier (fournie SPK) + validation implantation SPK/EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.14</WBS><OutlineNumber>5.14</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-15T08:00:00</Start><Finish>2026-12-15T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 4 : EIFFAGE réalise, SPK accompagne (P) et valide l'implantation avant coulée.</Notes>
+<PredecessorLink><PredecessorUID>39</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>40</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE + SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>42</UID><ID>42</ID><Name>[EIFFAGE] Drain périphérique / gestion des eaux autour du radier (si G2PRO l'impose)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.15</WBS><OutlineNumber>5.15</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-15T08:00:00</Start><Finish>2026-12-15T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 4 (conditionnel).</Notes>
+<PredecessorLink><PredecessorUID>39</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>43</UID><ID>43</ID><Name>[EIFFAGE] Ferraillage radier (TS + HA), attentes pieux, réservations, fourreaux, coffrage de rives et bêches périphériques</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.16</WBS><OutlineNumber>5.16</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-16T08:00:00</Start><Finish>2026-12-21T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.5.5 (m³). Durée estimée (radier ~ Ø 14 m).</Notes>
+<PredecessorLink><PredecessorUID>41</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>38</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>37</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>42</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>44</UID><ID>44</ID><Name>[EIFFAGE] Coulage du radier béton C25/30 XC2 XF1 (parement soigné, circulations brossées antidérapantes)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.17</WBS><OutlineNumber>5.17</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-22T08:00:00</Start><Finish>2026-12-22T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.5.5 ; CCTP EIFFAGE 4.4.</Notes>
+<PredecessorLink><PredecessorUID>43</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>45</UID><ID>45</ID><Name>[EIFFAGE] Durcissement du radier avant chargement de la cuve (délai à valider BET / bureau de contrôle)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>5.18</WBS><OutlineNumber>5.18</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-23T08:00:00</Start><Finish>2027-01-06T17:00:00</Finish><Duration>PT72H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Hypothèse 9 jours ouvrés avant chargement de la cuve : à valider BET / bureau de contrôle (28 j si exigé).</Notes>
+<PredecessorLink><PredecessorUID>44</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>46</UID><ID>46</ID><Name>6. LOCAL B2, LOCAL GE ET LOCAL SPRINKLEUR - SCELLEMENTS</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>6</WBS><OutlineNumber>6</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-04T08:00:00</Start><Finish>2026-12-08T17:00:00</Finish><Duration>PT192H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>47</UID><ID>47</ID><Name>[EIFFAGE] Pose nouvelles pièces de scellement local B2 (DN300, DN200, DN150, échappement), reprise mortier, étanchéité, calfeutrement</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>6.1</WBS><OutlineNumber>6.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-18T08:00:00</Start><Finish>2026-11-19T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.8.3 ; Limites de prestations Travaux source B2.</Notes>
+<PredecessorLink><PredecessorUID>24</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>40</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>48</UID><ID>48</ID><Name>[EIFFAGE] Pose nouvelle pièce de scellement refoulement DN200 local GE + calfeutrement</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>6.2</WBS><OutlineNumber>6.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-18T08:00:00</Start><Finish>2026-11-18T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations Travaux local GE.</Notes>
+<PredecessorLink><PredecessorUID>26</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>40</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>49</UID><ID>49</ID><Name>[SPK] Pose du nouveau GMPD + tuyauteries DN300/DN200 dans le local B2 (après scellements EIFFAGE)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>6.3</WBS><OutlineNumber>6.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-20T08:00:00</Start><Finish>2026-11-27T17:00:00</Finish><Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF SPK 3.5 (Source B2). Durée estimée.</Notes>
+<PredecessorLink><PredecessorUID>47</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>17</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>50</UID><ID>50</ID><Name>[EIFFAGE] Restauration couche de forme, dalle portée, soubassement et cuvelage local GE + durcisseur de dalle</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>6.4</WBS><OutlineNumber>6.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-04T08:00:00</Start><Finish>2026-12-08T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.8.5 ; Limites de prestations Travaux local GE.</Notes>
+<PredecessorLink><PredecessorUID>48</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>60</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>51</UID><ID>51</ID><Name>[EIFFAGE] Percement des voiles béton façade Nord : ventilation haute et basse + redressement des tableaux</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>6.5</WBS><OutlineNumber>6.5</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-04T08:00:00</Start><Finish>2026-11-05T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.8.4 (m²) ; Limites de prestations Travaux local sprinkleur source A.</Notes>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>52</UID><ID>52</ID><Name>[SPK] Fourniture et pose des grilles de ventilation (après percement EIFFAGE)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>6.6</WBS><OutlineNumber>6.6</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-06T08:00:00</Start><Finish>2026-11-06T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 4.</Notes>
+<PredecessorLink><PredecessorUID>51</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>53</UID><ID>53</ID><Name>7. TRANCHÉES COMMUNES ET RÉSEAUX ENTERRÉS</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7</WBS><OutlineNumber>7</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-24T08:00:00</Start><Finish>2027-01-22T17:00:00</Finish><Duration>PT336H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>54</UID><ID>54</ID><Name>[EIFFAGE] Ouverture tranchée commune (~ 25 ml estimés)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.1</WBS><OutlineNumber>7.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-23T08:00:00</Start><Finish>2026-12-24T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.6.1 (ml) ; Limites de prestations 5. Longueur estimée : à relever sur plan.</Notes>
+<PredecessorLink><PredecessorUID>44</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>19</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>10</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>55</UID><ID>55</ID><Name>[EIFFAGE] Fourreaux électriques 2 x Ø90 (local B2 / réserve d'eau) + chambre de tirage</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.2</WBS><OutlineNumber>7.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-28T08:00:00</Start><Finish>2026-12-28T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.6.4 / 5.6.5 ; Limites de prestations 5 (Électricité).</Notes>
+<PredecessorLink><PredecessorUID>54</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>56</UID><ID>56</ID><Name>[SPK] Pose aspiration DN300 + remplissage/retour essai DN150 + épreuves (tranchée 1) - avant remblaiement EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.3</WBS><OutlineNumber>7.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-28T08:00:00</Start><Finish>2026-12-31T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5 : tableau mentionne remplissage DN200 / retour essai DN150 (CCTP : DN150).</Notes>
+<PredecessorLink><PredecessorUID>54</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>41</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>47</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>57</UID><ID>57</ID><Name>[EIFFAGE] Grillage avertisseur + remblaiement et compactage tranchée 1 (95 % OPM)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.4</WBS><OutlineNumber>7.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-04T08:00:00</Start><Finish>2027-01-05T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5 : remblaiement EIFFAGE après pose SPK.</Notes>
+<PredecessorLink><PredecessorUID>56</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>55</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>58</UID><ID>58</ID><Name>[EIFFAGE] Ouverture tranchée commune (~ 60 ml estimés, sciage voirie lourde + espace vert)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.5</WBS><OutlineNumber>7.5</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-24T08:00:00</Start><Finish>2026-11-26T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.6.1 / 5.3.2 ; Limites de prestations 5. Longueur estimée.</Notes>
+<PredecessorLink><PredecessorUID>19</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>10</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>59</UID><ID>59</ID><Name>[EIFFAGE] Fourreaux électriques 2 x Ø90 (local GE / local B2) + chambre de tirage</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.6</WBS><OutlineNumber>7.6</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-27T08:00:00</Start><Finish>2026-11-27T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.6.4 / 5.6.5.</Notes>
+<PredecessorLink><PredecessorUID>58</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>60</UID><ID>60</ID><Name>[SPK] Pose refoulement DN200 jusqu'au local GE + épreuves (tranchée 2) - avant remblaiement EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.7</WBS><OutlineNumber>7.7</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-27T08:00:00</Start><Finish>2026-12-03T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5 (Liaison local B2 ↔ local GE).</Notes>
+<PredecessorLink><PredecessorUID>58</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>47</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>48</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>61</UID><ID>61</ID><Name>[EIFFAGE] Grillage avertisseur + remblaiement et compactage tranchée 2</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.8</WBS><OutlineNumber>7.8</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-04T08:00:00</Start><Finish>2026-12-07T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5.</Notes>
+<PredecessorLink><PredecessorUID>60</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>59</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>62</UID><ID>62</ID><Name>[EIFFAGE] Tranchée + réseau de collecte extérieur EU PVC DN200 (puisard/vidange → regard existant), regard 500x500</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.9</WBS><OutlineNumber>7.9</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-15T08:00:00</Start><Finish>2026-12-17T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.6.7 (ml) ; Limites de prestations 5.</Notes>
+<PredecessorLink><PredecessorUID>35</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>63</UID><ID>63</ID><Name>[SPK] Réseau EU àérien trop-plein/vidange, sortie à 1,00 m du nu cuve (SPK) - raccordé ensuite par EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.10</WBS><OutlineNumber>7.10</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-19T08:00:00</Start><Finish>2027-01-20T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5 (Vidange - Eaux usées).</Notes>
+<PredecessorLink><PredecessorUID>69</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>64</UID><ID>64</ID><Name>[EIFFAGE] Raccordement sur réseau EU existant (branchement), boîte de branchement, reprise des sorties EU à 1,00 m</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.11</WBS><OutlineNumber>7.11</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-21T08:00:00</Start><Finish>2027-01-21T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5.</Notes>
+<PredecessorLink><PredecessorUID>62</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>63</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>65</UID><ID>65</ID><Name>[EIFFAGE] Remblaiement et compactage tranchée EU</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.12</WBS><OutlineNumber>7.12</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-22T08:00:00</Start><Finish>2027-01-22T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5.</Notes>
+<PredecessorLink><PredecessorUID>64</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>66</UID><ID>66</ID><Name>[SPK] Tirage des câbles TGBT / reports d'alarme dans les fourreaux EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>7.13</WBS><OutlineNumber>7.13</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-29T08:00:00</Start><Finish>2026-12-31T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5 (Électricité).</Notes>
+<PredecessorLink><PredecessorUID>55</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>59</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>67</UID><ID>67</ID><Name>8. CUVE B2 620 m³ (SPK) - INTERFACES</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>8</WBS><OutlineNumber>8</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-09T08:00:00</Start><Finish>2027-02-02T17:00:00</Finish><Duration>PT472H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>68</UID><ID>68</ID><Name>[SPK] Livraison de la cuve sur site</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>8.1</WBS><OutlineNumber>8.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-23T08:00:00</Start><Finish>2026-12-24T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : CCTP SPK 3.5.4 b.</Notes>
+<PredecessorLink><PredecessorUID>44</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>69</UID><ID>69</ID><Name>[SPK] Implantation et montage de la cuve boulonnée Ø 12,48 m x H 5,74 m sur le radier EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>8.2</WBS><OutlineNumber>8.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-07T08:00:00</Start><Finish>2027-01-18T17:00:00</Finish><Duration>PT64H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF SPK 3.5 (Réserve d'eau). Durée estimée.</Notes>
+<PredecessorLink><PredecessorUID>45</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>68</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>70</UID><ID>70</ID><Name>[SPK] Poche PVC, toit autoportant, échelle, équipements de la cuve</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>8.3</WBS><OutlineNumber>8.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-19T08:00:00</Start><Finish>2027-01-25T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<PredecessorLink><PredecessorUID>69</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>71</UID><ID>71</ID><Name>[EIFFAGE] Joint ciment périphérique autour de la cornière de fixation de la cuve</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>8.4</WBS><OutlineNumber>8.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-19T08:00:00</Start><Finish>2027-01-19T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.8.1 (ml) ; Limites de prestations 4.</Notes>
+<PredecessorLink><PredecessorUID>69</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>72</UID><ID>72</ID><Name>[SPK] Remplissage de la cuve (&lt;= 36 h) + test d'étanchéité</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>8.5</WBS><OutlineNumber>8.5</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-26T08:00:00</Start><Finish>2027-01-28T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : CCTP SPK 3.5.4 b. (remplissage en 36 h maximum). Évacuation EU du trop-plein nécessaire.</Notes>
+<PredecessorLink><PredecessorUID>70</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>71</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>64</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>73</UID><ID>73</ID><Name>[SPK] Essais + REMISE EN SERVICE de la source B2 (fin de l'indisponibilité de la B2)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>8.6</WBS><OutlineNumber>8.6</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-29T08:00:00</Start><Finish>2027-02-02T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Jalon de fin d'indisponibilité de la source B2.</Notes>
+<PredecessorLink><PredecessorUID>72</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>49</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>56</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>60</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>74</UID><ID>74</ID><Name>[SPK/MOA] Mesures compensatoires + gardiennage pendant l'indisponibilité de la source B2</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>8.7</WBS><OutlineNumber>8.7</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-09T08:00:00</Start><Finish>2027-02-02T17:00:00</Finish><Duration>PT472H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 2 ; DPGF SPK 3.1.4 / 3.1.5. Hamac : durée = vidange → remise en service B2.</Notes>
+<PredecessorLink><PredecessorUID>13</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>73</PredecessorUID><Type>0</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>SPK</Value></ExtendedAttribute>
+</Task>
+<Task><UID>75</UID><ID>75</ID><Name>9. BRISE-VUE : CHARPENTE, BARDAGE BOIS, PORTE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>9</WBS><OutlineNumber>9</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-26T08:00:00</Start><Finish>2027-02-08T17:00:00</Finish><Duration>PT80H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>76</UID><ID>76</ID><Name>[EIFFAGE] Montage charpente métallique brise-vue (poteaux, pannes, contreventement) + scellement définitif des ancrages</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>9.1</WBS><OutlineNumber>9.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-26T08:00:00</Start><Finish>2027-01-29T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.7.1 ; Limites de prestations 4. CCTP EIFFAGE 1 : cuve et réseaux avant brise-vue.</Notes>
+<PredecessorLink><PredecessorUID>70</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>57</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>77</UID><ID>77</ID><Name>[EIFFAGE] Sous-construction du bardage (profils oméga acier galvanisé sur poteaux)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>9.2</WBS><OutlineNumber>9.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-28T08:00:00</Start><Finish>2027-02-01T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.9.1 (m²). Durée estimée.</Notes>
+<PredecessorLink><PredecessorUID>76</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>9600</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>78</UID><ID>78</ID><Name>[EIFFAGE] Lames de bardage bois douglas à claire-voie (espacement 20 mm), coupes à 45°, saturateur</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>9.3</WBS><OutlineNumber>9.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-01T08:00:00</Start><Finish>2027-02-08T17:00:00</Finish><Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.9.2 (m²). Hypothèse ~40 m²/jour.</Notes>
+<PredecessorLink><PredecessorUID>77</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>9600</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>79</UID><ID>79</ID><Name>[EIFFAGE] Pose porte d'accès cuve B2 (ferme-porte, barre anti-panique, serrure compatible site)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>9.4</WBS><OutlineNumber>9.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-02T08:00:00</Start><Finish>2027-02-02T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.9.3.</Notes>
+<PredecessorLink><PredecessorUID>77</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>80</UID><ID>80</ID><Name>10. VOIRIES ET ESPACES VERTS - REMISE EN ÉTAT</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10</WBS><OutlineNumber>10</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-08T08:00:00</Start><Finish>2027-02-05T17:00:00</Finish><Duration>PT336H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>81</UID><ID>81</ID><Name>[EIFFAGE] Remise en place des bordures béton (joints résistants UV et hydrocarbures)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10.1</WBS><OutlineNumber>10.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-12-08T08:00:00</Start><Finish>2026-12-08T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.10.3 (ml).</Notes>
+<PredecessorLink><PredecessorUID>61</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>7</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>82</UID><ID>82</ID><Name>[EIFFAGE] Réfection voie technique : reprofilage GNT 30 cm, géotextile cl.4, enrobé noir 5 cm au droit des réseaux</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10.2</WBS><OutlineNumber>10.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-01-06T08:00:00</Start><Finish>2027-01-08T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.10.4 (m²) ; Limites de prestations 6.</Notes>
+<PredecessorLink><PredecessorUID>81</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>57</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>83</UID><ID>83</ID><Name>[EIFFAGE] Dépose des pistes d'accès chantier + évacuation + reprofilage</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10.3</WBS><OutlineNumber>10.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-01T08:00:00</Start><Finish>2027-02-01T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : CCTP EIFFAGE 5.3.3.</Notes>
+<PredecessorLink><PredecessorUID>76</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>65</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>50</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>57</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>84</UID><ID>84</ID><Name>[EIFFAGE] Mouvements de terres, nivellement espaces verts + apport terre végétale 0,30 m mini</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10.4</WBS><OutlineNumber>10.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-02T08:00:00</Start><Finish>2027-02-03T17:00:00</Finish><Duration>PT16H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 6.</Notes>
+<PredecessorLink><PredecessorUID>83</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>85</UID><ID>85</ID><Name>[EIFFAGE] Préparation avant engazonnement (nettoyage, rotavator 0,20 m, amendements, réglage)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10.5</WBS><OutlineNumber>10.5</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-04T08:00:00</Start><Finish>2027-02-04T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.10.1.</Notes>
+<PredecessorLink><PredecessorUID>84</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>86</UID><ID>86</ID><Name>[EIFFAGE] Engazonnement (semis 3 kg/are, roulage, ratissage) - plantations gazon</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10.6</WBS><OutlineNumber>10.6</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-05T08:00:00</Start><Finish>2027-02-05T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.10.2 (m²). Contrôle à 1 mois / tonte à 15 j hors planning.</Notes>
+<PredecessorLink><PredecessorUID>85</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>87</UID><ID>87</ID><Name>[EIFFAGE] Réfection des cheminements de chantier</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10.7</WBS><OutlineNumber>10.7</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-02T08:00:00</Start><Finish>2027-02-02T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 6.</Notes>
+<PredecessorLink><PredecessorUID>83</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>88</UID><ID>88</ID><Name>[EIFFAGE] Curage + contrôle caméra des réseaux EU en fin de travaux</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>10.8</WBS><OutlineNumber>10.8</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-02T08:00:00</Start><Finish>2027-02-02T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 5.</Notes>
+<PredecessorLink><PredecessorUID>65</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>83</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>89</UID><ID>89</ID><Name>11. FIN DE CHANTIER EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>11</WBS><OutlineNumber>11</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-09T08:00:00</Start><Finish>2027-02-12T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>90</UID><ID>90</ID><Name>[EIFFAGE] Constat d'huissier contradictoire de fin de travaux</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>11.1</WBS><OutlineNumber>11.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-09T08:00:00</Start><Finish>2027-02-09T17:00:00</Finish><Duration>PT8H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.1.1 ; CCTP EIFFAGE 5.1.1.</Notes>
+<PredecessorLink><PredecessorUID>86</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>87</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>82</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>88</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>78</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>79</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>91</UID><ID>91</ID><Name>[EIFFAGE] DOE lot EIFFAGE : récolement ouvrages enterrés, PV essais béton/pieux, fiches techniques</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>11.2</WBS><OutlineNumber>11.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-10T08:00:00</Start><Finish>2027-02-12T17:00:00</Finish><Duration>PT24H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites : DOE chacun pour son lot ; CCTP EIFFAGE 2.3.7.</Notes>
+<PredecessorLink><PredecessorUID>90</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>32</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>92</UID><ID>92</ID><Name>FIN DES TRAVAUX EIFFAGE</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>11.3</WBS><OutlineNumber>11.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2027-02-12T17:00:00</Start><Finish>2027-02-12T17:00:00</Finish><Duration>PT0H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>1</Milestone><Summary>0</Summary><Critical>1</Critical><ConstraintType>0</ConstraintType>
+<PredecessorLink><PredecessorUID>91</PredecessorUID><Type>1</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>93</UID><ID>93</ID><Name>12. PRESTATIONS TRANSVERSES EIFFAGE (hamacs)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>12</WBS><OutlineNumber>12</OutlineNumber><OutlineLevel>1</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-02T08:00:00</Start><Finish>2027-02-09T17:00:00</Finish><Duration>PT552H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+</Task>
+<Task><UID>94</UID><ID>94</ID><Name>[EIFFAGE] Gestion des portails / accès de chantier (ouverture, fermeture, surveillance)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>12.1</WBS><OutlineNumber>12.1</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-02T08:00:00</Start><Finish>2027-02-09T17:00:00</Finish><Duration>PT552H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : Limites de prestations 1 : EIFFAGE phase 1 ; CCTP EIFFAGE 5.1.3.</Notes>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>90</PredecessorUID><Type>0</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>95</UID><ID>95</ID><Name>[EIFFAGE] Entretien et nettoyage des abords, accès et voies (permanent)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>12.2</WBS><OutlineNumber>12.2</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-02T08:00:00</Start><Finish>2027-02-09T17:00:00</Finish><Duration>PT552H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.1.11 ; CCTP EIFFAGE 5.1.11.</Notes>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>90</PredecessorUID><Type>0</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>96</UID><ID>96</ID><Name>[EIFFAGE] Homme trafic (voie pompier, arrivées/départs camions) - phases démolition à remise en état</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>12.3</WBS><OutlineNumber>12.3</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-09T08:00:00</Start><Finish>2027-02-01T17:00:00</Finish><Duration>PT464H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.1.12 ; Limites de prestations 2 (chacun pour son lot).</Notes>
+<PredecessorLink><PredecessorUID>15</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>83</PredecessorUID><Type>0</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+<Task><UID>97</UID><ID>97</ID><Name>[EIFFAGE] Bennes de chantier + évacuation gravats (part du lot)</Name><Active>1</Active><Manual>0</Manual><Type>1</Type><IsNull>0</IsNull><WBS>12.4</WBS><OutlineNumber>12.4</OutlineNumber><OutlineLevel>2</OutlineLevel><Priority>500</Priority>
+<Start>2026-11-09T08:00:00</Start><Finish>2027-02-01T17:00:00</Finish><Duration>PT464H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><EffortDriven>0</EffortDriven><Estimated>0</Estimated><Milestone>0</Milestone><Summary>0</Summary><Critical>0</Critical><ConstraintType>0</ConstraintType>
+<Notes>Source / hypothèse : DPGF EIFFAGE 5.1.10.</Notes>
+<PredecessorLink><PredecessorUID>15</PredecessorUID><Type>3</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<PredecessorLink><PredecessorUID>83</PredecessorUID><Type>0</Type><CrossProject>0</CrossProject><LinkLag>0</LinkLag><LagFormat>7</LagFormat></PredecessorLink>
+<ExtendedAttribute><FieldID>188743731</FieldID><Value>EIFFAGE</Value></ExtendedAttribute>
+</Task>
+</Tasks></Project>
